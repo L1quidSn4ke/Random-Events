@@ -41,8 +41,8 @@ Citizen.CreateThread(function()
 end)
 
 -- Event to start the random event
-RegisterNetEvent('woodlandrp:startEvent')
-AddEventHandler('woodlandrp:startEvent', function(event)
+RegisterNetEvent('randomevents:startEvent')
+AddEventHandler('randomevents:startEvent', function(event)
     local players = GetPlayers()
 
     for _, player in ipairs(players) do
